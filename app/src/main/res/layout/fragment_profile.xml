@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ProfileFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/img_profile"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="60dp"
+            android:contentDescription="@string/profile_name"
+            android:scaleType="centerCrop"
+            android:src="@drawable/foto_profile" />
+
+        <TextView
+            android:id="@+id/tv_profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:text="@string/profile_name"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+
+            <TableRow android:paddingBottom="12dp">
+                <TextView
+                    android:minWidth="110dp"
+                    android:text="@string/label_email"
+                    android:textStyle="bold" />
+                <TextView android:text="@string/value_email" />
+            </TableRow>
+
+            <TableRow android:paddingBottom="12dp">
+                <TextView
+                    android:minWidth="110dp"
+                    android:text="@string/label_nim"
+                    android:textStyle="bold" />
+                <TextView android:text="@string/value_nim" />
+            </TableRow>
+
+            <TableRow android:paddingBottom="12dp">
+                <TextView
+                    android:minWidth="110dp"
+                    android:text="@string/label_jurusan"
+                    android:textStyle="bold" />
+                <TextView android:text="@string/value_jurusan" />
+            </TableRow>
+
+            <TableRow android:paddingBottom="12dp">
+                <TextView
+                    android:minWidth="110dp"
+                    android:text="@string/label_prodi"
+                    android:textStyle="bold" />
+                <TextView android:text="@string/value_prodi" />
+            </TableRow>
+
+            <TableRow android:paddingBottom="12dp">
+                <TextView
+                    android:minWidth="110dp"
+                    android:text="@string/label_alamat"
+                    android:textStyle="bold" />
+                <TextView android:text="@string/value_alamat" />
+            </TableRow>
+
+            <TableRow android:paddingBottom="12dp">
+                <TextView
+                    android:minWidth="110dp"
+                    android:text="@string/label_hobi"
+                    android:textStyle="bold" />
+                <TextView android:text="@string/value_hobi" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>

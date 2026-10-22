@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ProjectUTS</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_profile">Profile</string>
+
+    <string name="profile_name">Muhammad Reno Aljabbar</string>
+    <string name="label_nama">Nama</string>
+    <string name="label_email">Email</string>
+    <string name="label_nim">NIM</string>
+    <string name="label_jurusan">Jurusan</string>
+    <string name="label_prodi">Prodi</string>
+    <string name="label_alamat">Alamat</string>
+    <string name="label_hobi">Hobi</string>
+
+    <string name="value_email">renoaljabbarreno@gmail.com</string>
+    <string name="value_nim">6304240005</string>
+    <string name="value_jurusan">TEKNIK INFORMATIKA</string>
+    <string name="value_prodi">REKAYASA PERANGKAT LUNAK</string>
+    <string name="value_alamat">JL. Awang Mahmuda</string>
+    <string name="value_hobi">Lari</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
